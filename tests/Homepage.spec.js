@@ -6,6 +6,4 @@ test('Home Page', async({page})=>{
  await expect (page).toHaveURL('https://demoqa.com/');
  await page.close();
 //await page.close();
-
-
 })
